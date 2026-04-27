@@ -15,13 +15,14 @@ public class Sorter {
             }
         }
     }
+
+    // quick
     public void advancedSort(int[] arr) {
         quickSort(arr, 0, arr.length - 1);
     }
 
     private void quickSort(int[] arr, int low, int high) {
         if (low < high) {
-
             int pi = partition(arr, low, high);
 
             quickSort(arr, low, pi - 1);
@@ -34,10 +35,8 @@ public class Sorter {
         int i = low - 1;
 
         for (int j = low; j < high; j++) {
-
             if (arr[j] < pivot) {
                 i++;
-
                 int temp = arr[i];
                 arr[i] = arr[j];
                 arr[j] = temp;
@@ -51,13 +50,7 @@ public class Sorter {
         return i + 1;
     }
 
-    public void printArray(int[] arr) {
-        for (int num : arr) {
-            System.out.print(num + " ");
-        }
-        System.out.println();
-    }
-
+    // random
     public int[] generateRandomArray(int size) {
         Random rand = new Random();
         int[] arr = new int[size];
@@ -68,6 +61,7 @@ public class Sorter {
 
         return arr;
     }
+// sorted
 
     public int[] generateSortedArray(int size) {
         int[] arr = new int[size];
