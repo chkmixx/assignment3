@@ -5,10 +5,16 @@ A summary of results is included in this README, while the full formatted table 
 
  Results Table (Summary)
 
-| Size | Bubble (ns) | Quick (ns) | Binary Search (ns) |
-|------|------------|------------|--------------------|
-| 100  | 123600     | 25700      | 800                |
-| 1000 | 2908600    | 83700      | 900                |
+| Size | Type   | Bubble (ns) | Quick (ns) | Binary Search (ns) |
+| ---- | ------ | ----------- | ---------- | ------------------ |
+| 10   | Random | 7200        | 12400      | 2000               |
+| 10   | Sorted | 1700        | 2800       | 600                |
+| 100  | Random | 123600      | 25700      | 800                |
+| 100  | Sorted | 82800       | 113300     | 700                |
+| 1000 | Random | 2908600     | 83700      | 900                |
+| 1000 | Sorted | 926200      | 1035300    | 1500               |
+
+The table above summarizes execution times for different input sizes and both random and sorted data.
 
 
 
