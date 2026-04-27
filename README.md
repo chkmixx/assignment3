@@ -1,4 +1,7 @@
-Execution Output[screen.docx](https://github.com/user-attachments/files/27117981/screen.docx)
+Execution Output
+A summary of results is included in this README, while the full formatted table can be found in the attached Word document.
+[screen.docx](https://github.com/user-attachments/files/27137615/screen.docx)
+
 
 
 Analyses:Which sorting algorithm performed faster? Why?
