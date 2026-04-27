@@ -1,6 +1,10 @@
 Execution Output[screen.docx](https://github.com/user-attachments/files/27117981/screen.docx)
+
+
 Analyses:Which sorting algorithm performed faster? Why?
 Quick Sort was faster than Bubble Sort for medium and big arrays. This is because Quick Sort is more efficient (O(n log n)), while Bubble Sort is slow (O(n^2)). But for very small arrays (size 10), Bubble Sort was a bit faster.
+
+
 How does performance change with input size?
 When the size increases:Bubble Sort becomes very slow but Quick Sort is still fast.So Quick Sort works better for large data.
 How does sorted vs unsorted data affect performance?
