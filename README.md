@@ -1,15 +1,4 @@
 Execution Output[screen.docx](https://github.com/user-attachments/files/27117981/screen.docx)
-
- Results Table (Random Arrays)
-Size	 Bubble 	Quick 	Binary Search
-10	   8500          	10000      	2600
-100  	217700        	35900      	1300
-1000	4088700       	103100	     2200
-  Results Table (Sorted Arrays)
-Size	Bubble 	Quick 	Binary Search 
-10    3300	  5500	   1100
-100  	146100	222600	 1300
-1000	1108500	1280600 	1400
 Analyses:Which sorting algorithm performed faster? Why?
 Quick Sort was faster than Bubble Sort for medium and big arrays. This is because Quick Sort is more efficient (O(n log n)), while Bubble Sort is slow (O(n^2)). But for very small arrays (size 10), Bubble Sort was a bit faster.
 How does performance change with input size?
