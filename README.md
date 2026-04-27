@@ -1,4 +1,5 @@
 Execution Output
+
 A summary of results is included in this README, while the full formatted table can be found in the attached Word document.
 [screen.docx](https://github.com/user-attachments/files/27137615/screen.docx)
 
@@ -12,7 +13,9 @@ A summary of results is included in this README, while the full formatted table 
 
 
 
-Analyses:Which sorting algorithm performed faster? Why?
+Analyses:
+
+Which sorting algorithm performed faster? Why?
 Quick Sort was faster than Bubble Sort for medium and big arrays. This is because Quick Sort is more efficient (O(n log n)), while Bubble Sort is slow (O(n^2)). But for very small arrays (size 10), Bubble Sort was a bit faster.
 
 
