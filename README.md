@@ -22,4 +22,5 @@ Why does Binary Search require a sorted array?
 Because it needs order. It compares middle element and decides left or right. Without sorted array, it wont work.
 
  Reflection:
+ 
 In this project, I learned how different algorithms perform depending on input size and type. I understood that simple algorithms like Bubble Sort are easy to implement but become very slow for large data, while more advanced algorithms like Quick Sort are much more efficient.I also noticed that theoretical complexity (Big-O) is mostly correct, but real execution time can vary depending on input (for example, sorted arrays affected Quick Sort). The main challenge was implementing and testing the algorithms correctly and measuring time using System.nanoTime().
